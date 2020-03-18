@@ -6,46 +6,50 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
 </head>
-<body>
-<div class="wrapper">
+<body class="page">
 
 	<header class="header">
-		<section class="navbar">
-			<h2 class="navbar__logo">Fesco</h2>
-			<ul class="navbar__list">
-				<li class="navbar__item">Home</li>
-				<li class="navbar__item">About Us</li>
-				<li class="navbar__item">Menu</li>
-				<li class="navbar__item">Reservations</li>
-				<li class="navbar__item">Contact</li>
-			</ul>
-		</section>
+		<div class="header__wrapper">
+			<section class="navbar">
+				<h2 class="navbar__logo">Fesco</h2>
+				<ul class="navbar__list">
+					<li><a href="#" class="navbar__item">Home</a></li>
+					<li><a href="#" class="navbar__item">About Us</a></li>
+					<li><a href="#" class="navbar__item">Menu</a></li>
+					<li><a href="#" class="navbar__item">Reservations</a></li>
+					<li><a href="#" class="navbar__item">Contact</a></li>
+				</ul>
+			</section>
 
-		<section class="home">
-			<img src="img/flower.png" class="home__img">
-			<h1 class="home__header">Making Food Taste Better.</h1>
-			<h5 class="home__subtitle">Italian Specialities</h5>
-			<p class="home__description">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-				tempor incididunt ut labore et dolore magna aliqua.
-			</p>
-		</section>	
+			<section class="home">
+				<div class="home__img-cont">
+					<img src="img/flower.png" class="home__img">
+				</div>
+				<h1 class="home__header">Making Food Taste Better.</h1>
+				<h5 class="home__subtitle">Italian Specialities</h5>
+				<p class="home__description">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+					tempor incididunt.
+				</p>
+			</section>	
 
-		<section class="contact">
-			<h3 class="contact__header">Contact</h3>
-			<p class="contact__description">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-			</p>	
-			<p class="contact__description">ADDRESS:</p>
-			<p class="contact__info">17 Awesome Street, Belgrade</p>
-			<p class="contact__info">SR 877900</p>
-			<a href="#" class="contact__description">view map</a>
-			<p class="contact__description">OPENING HOURS:</p>
-			<p class="contact__info">Monday - Friday.......................8:00am - 11:00pm</p>
-			<p class="contact__info">Saturday - Sunday.....................8:00am - 10:00pm</p>
-			<a href="#" class="contact__link-reserv"> Table Reservation</a>
-		</section>	
+			<section class="contact">
+				<h3 class="contact__header">Contact</h3>
+				<p class="contact__description">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+				</p>	
+				<p class="contact__description">ADDRESS:</p>
+				<p class="contact__info">17 Awesome Street, Belgrade</p>
+				<p class="contact__info">SR 877900</p>
+				<a href="#" class="contact__description">view map</a>
+				<p class="contact__description">OPENING HOURS:</p>
+				<p class="contact__info">Monday - Friday.......................8:00am - 11:00pm</p>
+				<p class="contact__info">Saturday - Sunday.....................8:00am - 10:00pm</p>
+				<a href="#" class="contact__link-reserv"> Table Reservation</a>
+			</section>	
+		</div>
 	</header>
 
 	<main class="content">
@@ -68,7 +72,7 @@
 				ipsum urna, sit amet consectetur arcu tincidunt non. Sed sed maximus urna. 
 				Maecenas blandit dui ut nibh egestas, vitae bibendum erat mattis.
 			</p>
-			<img src="img/contact.jpeg" class="contact__img">
+			<img src="img/about.jpeg" class="contact__img">
 		</section>
 
 		<section class="special"></section>
@@ -77,6 +81,5 @@
 	</main>
 
 	<foter class="foter"></foter>
-</div>
 </body>
 </html>
