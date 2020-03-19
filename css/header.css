@@ -25,7 +25,6 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid white;
-  flex-grow: 0;
   padding: 16px 0;
 }
 .navbar__logo {
@@ -49,6 +48,8 @@
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
+  position: relative;
+  top: 18%;
   width: 590px;
 }
 .home__img-cont {
@@ -72,5 +73,47 @@
 }
 
 .contact {
-  flex-grow: 0;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 25%;
+}
+.contact__wrapper {
+  background-color: #1c192a;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 400px;
+}
+.contact__title {
+  font-size: 1.4em;
+  color: #eaaa64;
+}
+.contact__description {
+  font-family: RalewayMedium;
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin: 18px 0;
+}
+.contact__info {
+  font-size: 0.9em;
+  margin: 9px 0;
+}
+.contact__map {
+  border-bottom: 1px solid #eaaa64;
+  color: #eaaa64;
+  font-family: VollkornRegular;
+}
+.contact__link-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 0;
+}
+.contact__link-reserv {
+  border: 1px solid #eaaa64;
+  color: white;
+  padding: 10px;
+}
+.contact__link-reserv:hover {
+  background-color: #eaaa64;
+  color: #1c192a;
 }
