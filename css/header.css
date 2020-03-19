@@ -1,11 +1,18 @@
+.home__title {
+  font-family: YesteryearRegular;
+  font-size: 3.6em;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   background-image: url(/img/header.png);
   background-size: 100%;
   color: white;
-  display: flex;
-  justify-content: center;
   height: 100vh;
-  position: relative;
 }
 .header__wrapper {
   display: flex;
@@ -18,6 +25,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid white;
+  flex-grow: 0;
   padding: 16px 0;
 }
 .navbar__logo {
@@ -37,10 +45,10 @@
 }
 
 .home {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
   width: 590px;
 }
 .home__img-cont {
@@ -51,10 +59,8 @@
 .home__img {
   width: 55px;
 }
-.home__header {
+.home__title {
   color: #eaaa64;
-  font-family: YesteryearRegular;
-  font-size: 3.6em;
 }
 .home__subtitle {
   font-size: 1.4em;
@@ -66,7 +72,5 @@
 }
 
 .contact {
-  bottom: 10px;
-  position: absolute;
-  right: 0px;
+  flex-grow: 0;
 }

@@ -1,0 +1,13 @@
+$main-color: rgba(234, 170, 100);
+
+$section-width: 1100px;
+
+%title-style {
+	font-family: YesteryearRegular;
+	font-size: 3.6em;
+}
+
+%section-style {
+	display: flex;
+	justify-content: center;
+}

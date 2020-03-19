@@ -1,0 +1,38 @@
+@import 'general';
+
+.about {
+	height: 100vh;
+	@extend %section-style;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: 50px 0;
+		width: $section-width;
+	}
+	&__title {
+		color: $main-color;
+		padding-bottom: 50px;
+		margin-left: 50%;
+		transform: translateX(-65%);
+		width: 50%; 
+		@extend %title-style;
+	}
+	&__block {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text {
+		width: 51%;
+	}
+	&__description { 
+		font-family: RalewayMedium;
+		color: rgb(39, 0, 0);
+		line-height: 2;
+		padding-bottom: 45px;
+		text-align: center;
+	}
+	&__img {
+		height: 600px;
+	}
+}
