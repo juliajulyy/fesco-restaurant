@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 40px 0;
-    width: 1100px; }
+    width: 1000px; }
   .about__title {
     color: #eaaa64;
     padding-bottom: 50px;
@@ -28,11 +28,12 @@
   .about__description {
     font-family: RalewayMedium;
     color: #270000;
-    line-height: 2;
-    padding-bottom: 45px;
+    line-height: 1.8;
+    padding-bottom: 35px;
     text-align: center; }
   .about__img {
-    height: 600px; }
+    height: auto;
+    width: 355px; }
 
 .special {
   background-image: url(/img/specialities.jpg);
@@ -42,7 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1100px; }
+    width: 1000px; }
   .special__title {
     color: white; }
   .special__description {
@@ -61,9 +62,9 @@
   flex-direction: column; }
 
 .box__img {
-  width: 250px; }
+  width: 220px; }
 
 .box__caption {
   background-color: white;
   color: #270000;
-  padding: 20px; }
+  padding: 18px; }
