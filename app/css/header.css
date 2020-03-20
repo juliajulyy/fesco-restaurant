@@ -1,0 +1,95 @@
+.home__title {
+  font-family: YesteryearRegular;
+  font-size: 3.6em; }
+
+.header {
+  display: flex;
+  justify-content: center; }
+
+.header {
+  background-image: url(/img/header.png);
+  background-size: 100%;
+  color: white;
+  height: 100vh; }
+  .header__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1100px; }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding: 16px 0; }
+  .navbar__logo {
+    font-family: YesteryearRegular;
+    font-size: 2.1em; }
+  .navbar__list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px; }
+  .navbar__item {
+    color: white; }
+    .navbar__item:hover {
+      color: #eaaa64; }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  top: 18%;
+  width: 590px; }
+  .home__img-cont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; }
+  .home__img {
+    width: 55px; }
+  .home__title {
+    color: #eaaa64; }
+  .home__subtitle {
+    font-size: 1.4em;
+    margin-top: 15px; }
+  .home__description {
+    margin-top: 50px;
+    line-height: 1.5; }
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 25%; }
+  .contact__wrapper {
+    background-color: #1c192a;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 400px; }
+  .contact__title {
+    font-size: 1.4em;
+    color: #eaaa64; }
+  .contact__description {
+    font-family: RalewayMedium;
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin: 18px 0; }
+  .contact__info {
+    font-size: 0.9em;
+    margin: 9px 0; }
+  .contact__map {
+    border-bottom: 1px solid #eaaa64;
+    color: #eaaa64;
+    font-family: VollkornRegular; }
+  .contact__link-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0; }
+  .contact__link-reserv {
+    border: 1px solid #eaaa64;
+    color: white;
+    padding: 10px; }
+    .contact__link-reserv:hover {
+      background-color: #eaaa64;
+      color: #1c192a; }
