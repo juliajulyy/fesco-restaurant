@@ -3,7 +3,6 @@ $light-black-text: rgb(39, 0, 0);
 $blue-background: rgb(28, 25, 42);
 
 $section-width: 1000px;
-$subtitle-desc-width: 650px;
 
 %title-style {
 	font-family: YesteryearRegular;
@@ -13,4 +12,10 @@ $subtitle-desc-width: 650px;
 %section-style {
 	display: flex;
 	justify-content: center;
+}
+
+%subtitle-descr-style {
+	text-align: center;
+	margin: 25px 0 70px;
+	width: 650px;
 }

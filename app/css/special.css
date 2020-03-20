@@ -6,6 +6,11 @@
   display: flex;
   justify-content: center; }
 
+.special__description {
+  text-align: center;
+  margin: 25px 0 70px;
+  width: 650px; }
+
 .special {
   background-image: url(/img/specialities.jpg);
   background-size: 100%;
@@ -18,11 +23,9 @@
   .special__title {
     color: white; }
   .special__description {
+    margin-bottom: 70px;
     color: white;
-    line-height: 1.5;
-    margin: 25px 0 70px;
-    text-align: center;
-    width: 650px; }
+    line-height: 1.5; }
   .special__box {
     display: flex;
     justify-content: space-between;

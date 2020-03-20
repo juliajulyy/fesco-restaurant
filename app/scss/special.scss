@@ -12,15 +12,14 @@
 		width: $section-width;
 	}
 	&__title {
-		color: white;
 		@extend %title-style;
+		color: white;
 	}
 	&__description {
+		@extend %subtitle-descr-style;
+		margin-bottom: 70px;
 		color: white;
 		line-height: 1.5;
-		margin: 25px 0 70px;
-		text-align: center;
-		width: $subtitle-desc-width;
 	}
 	&__box {
 		display: flex;
