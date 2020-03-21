@@ -48,7 +48,7 @@
 					<p class="contact__info">Monday - Friday..................8:00am - 11:00pm</p>
 					<p class="contact__info">Saturday - Sunday...............8:00am - 10:00pm</p>
 					<div class="contact__description contact__button-wrapper" >
-						<a href="#" class="contact__button"> Table Reservation</a>
+						<a href="#" class="small-button"> Table Reservation</a>
 					</div>
 				</div>
 			</section>	
@@ -320,7 +320,7 @@
 					</div>
 				</div>
 
-				<div class="menu__button">View All Menu</div>
+				<div class="big-button">View All Menu</div>
 			</div>
 		</section>
 
@@ -334,11 +334,11 @@
 					<div class="details__wrapper">
 						<div class="details__item">
 							<label class="details__headline">CHOOSE A DATE</label>
-							<input class="details__input" size="30" pattern="\d{1,2}/\d{1,2}/\d{4}" type="text" name="date" placeholder=" Date" required>
+							<input class="details__input" type="date" name="date" required>
 						</div>
 						<div class="details__item">
 							<label class="details__headline">CHOOSE A TIME</label>
-							<input class="details__input" size="30" type="text" name="time" placeholder=" Time" list="time" required>
+							<input class="details__input" size="10" type="text" name="time" value="4:00pm" list="time" required>
 	          	<datalist id="time">
 		            <option class="details__option">4:00pm</option>
 		            <option class="details__option">5:00pm</option>
@@ -350,17 +350,17 @@
 						</div>
 						<div class="details__item">
 							<label class="details__headline">NUMBER OF PEOPLE</label>
-							<input class="details__input" size="30" type="text" name="number-of-people" placeholder=" Number" list="numbers" required>
+							<input class="details__input" size="10" type="text" name="number-of-people" value="2 People" list="numbers" required>
 	          	<datalist id="numbers">
-		            <option class="details__option">2 People</option>
-		            <option class="details__option">3 People</option>
-		            <option class="details__option">4 People</option>
-		            <option class="details__option">6 People</option>
-		            <option class="details__option">10 People</option>
+		            <option>2 People</option>
+		            <option>3 People</option>
+		            <option>4 People</option>
+		            <option>6 People</option>
+		            <option>10 People</option>
 	          	</datalist>
 						</div>
 					</div>
-					<button class="details__button" type="submit" form="details">Book now</button>
+					<button class="big-button" type="submit" form="details">Book now</button>
 				</form>
 			</div>
 		</section>
