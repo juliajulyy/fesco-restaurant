@@ -324,7 +324,46 @@
 			</div>
 		</section>
 
-		<section class="reserv"></section>
+		<section class="reserv">
+			<div class="reserv__wrapper">
+				<h1 class="reserv__title">Book a Table</h1>
+				<p class="reserv__description">
+					Pellentesque aliquet accumsan turpis, sed egestas odio finibus sit amet.
+				</p>
+				<form class="details" id="details">
+					<div class="details__wrapper">
+						<div class="details__item">
+							<label class="details__headline">CHOOSE A DATE</label>
+							<input class="details__input" size="30" pattern="\d{1,2}/\d{1,2}/\d{4}" type="text" name="date" placeholder=" Date" required>
+						</div>
+						<div class="details__item">
+							<label class="details__headline">CHOOSE A TIME</label>
+							<input class="details__input" size="30" type="text" name="time" placeholder=" Time" list="time" required>
+	          	<datalist id="time">
+		            <option class="details__option">4:00pm</option>
+		            <option class="details__option">5:00pm</option>
+		            <option class="details__option">6:00pm</option>
+		            <option class="details__option">7:00pm</option>
+		            <option class="details__option">8:00pm</option>
+		            <option class="details__option">9:00pm</option>
+	          	</datalist>
+						</div>
+						<div class="details__item">
+							<label class="details__headline">NUMBER OF PEOPLE</label>
+							<input class="details__input" size="30" type="text" name="number-of-people" placeholder=" Number" list="numbers" required>
+	          	<datalist id="numbers">
+		            <option class="details__option">2 People</option>
+		            <option class="details__option">3 People</option>
+		            <option class="details__option">4 People</option>
+		            <option class="details__option">6 People</option>
+		            <option class="details__option">10 People</option>
+	          	</datalist>
+						</div>
+					</div>
+					<button class="details__button" type="submit" form="details">Book now</button>
+				</form>
+			</div>
+		</section>
 	</main>
 
 	<foter class="foter"></foter>

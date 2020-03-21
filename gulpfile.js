@@ -48,7 +48,7 @@ gulp.task('watch', () => {
 
 gulp.task('cleanDir', () =>
 	gulp.src('docs', {read: false})
-  	.pipe(cleanDir('./docs'))
+  	.pipe(cleanDir('./docs', '!./docs/config.yml'))
 );
 
 const defaultTask = () => gulp.parallel(
