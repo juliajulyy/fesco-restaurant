@@ -1,0 +1,47 @@
+.menu {
+	@extend %section-style;
+	background-color: $blue-background;
+	padding: 70px 0;
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: $section-width;
+	}
+	&__title {
+		@extend %title-style;
+		color: $main-color;
+	}
+	&__description {
+		@extend %subtitle-descr-style;
+		color: white;
+		margin-bottom: 0;
+	}
+	&__subtitle {
+		color: $main-color;
+		font-family: RalewayMedium;
+		font-size: 1.6em;
+		margin: 70px 0 35px;
+	}
+	&__section {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	&__column {
+		width: 460px;
+	}
+	&__button {
+		background-color: $main-color;
+		border: 1px solid $main-color;
+		color: $blue-background;
+		font-family: RalewayMedium;
+		font-size: 0.9em;
+		padding: 18px 42px;
+		margin-top: 70px;
+		&:hover {
+			background-color: $blue-background;
+			color: $main-color;
+		}
+	}
+}

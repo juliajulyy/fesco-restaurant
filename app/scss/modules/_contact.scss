@@ -1,0 +1,46 @@
+.contact {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	top: 25%;
+	&__wrapper {
+		background-color: $blue-background;
+		box-sizing: border-box;
+		padding: 28px;
+		width: 355px;
+	}
+	&__title {
+		font-size: 1.45em;
+		color: $main-color;
+	}
+	&__description {
+		font-family: RalewayMedium;
+		font-size: 0.85em;
+		line-height: 1.4;
+		margin: 14px 0;
+	}
+	&__info {
+		font-size: 0.85em;
+		margin: 7px 0;
+	}
+	&__map {
+		border-bottom: 1px solid $main-color;
+		color: $main-color;
+		font-family: VollkornRegular;
+		font-size: 1em;
+	}
+	&__button-wrapper {
+		display: flex;
+		justify-content: center;
+		margin: 28px 0 0;
+	}
+	&__button {
+		border: 1px solid $main-color;
+		color: white;
+		padding: 9px;
+		&:hover {
+			background-color: $main-color;
+			color: rgb(28, 25, 42);
+		}
+	}
+}

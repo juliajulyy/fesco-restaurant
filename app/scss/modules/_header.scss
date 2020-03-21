@@ -1,0 +1,13 @@
+.header {
+	background-image: url(../../img/header.jpg);
+	background-size: 100%;
+	color: white;
+	height: 100vh;
+	@extend %section-style;
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		width: $section-width;
+	}
+}

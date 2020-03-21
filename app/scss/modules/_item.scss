@@ -1,0 +1,24 @@
+.item {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between; 
+	margin-top: 35px;
+	&__text {
+		color: white;
+		width: 330px;
+	}
+	&__title {
+		font-family: RalewayMedium;
+		margin-bottom: 10px;
+	}
+	&__description {
+		font-size: 0.9em;
+		line-height: 1.35;
+	}
+	&__price {
+		color: $main-color;
+		font-family: RalewayMedium;
+		font-size: 2em;
+		padding-bottom: 7px; 
+	}
+}
