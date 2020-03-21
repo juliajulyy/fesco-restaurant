@@ -9,14 +9,14 @@ gulp.task('sass', () =>
 	gulp.src('app/scss/**/*.scss')
 		.pipe(sass())
 		.pipe(cssMin())
-		.pipe(gulp.dest('dist/css'))
+		.pipe(gulp.dest('docs/css'))
 		.pipe(browserSync.reload({stream: true}))
 );
 
 gulp.task('browser-sync', () =>
 	browserSync({
 		server: {
-			baseDir: 'dist'
+			baseDir: 'docs'
 		},
 		notify: false
 	})
@@ -24,20 +24,20 @@ gulp.task('browser-sync', () =>
 
 gulp.task('html', () => 
 	gulp.src('app/*.html')
-		.pipe(gulp.dest('dist'))
+		.pipe(gulp.dest('docs'))
 		.pipe(browserSync.reload({stream: true}))
 );
 
 gulp.task('img-min', () =>
 	gulp.src('app/img/*')
 	  .pipe(imagemin())
-	  .pipe(gulp.dest('dist/img'))
+	  .pipe(gulp.dest('docs/img'))
 	  .pipe(browserSync.reload({stream: true}))
 );
 
 gulp.task('font', () =>
 	gulp.src('app/fonts/*')
-	  .pipe(gulp.dest('dist/fonts'))
+	  .pipe(gulp.dest('docs/fonts'))
 	  .pipe(browserSync.reload({stream: true}))
 );
 
@@ -47,8 +47,8 @@ gulp.task('watch', () => {
 });
 
 gulp.task('cleanDir', () =>
-	gulp.src('dist', {read: false})
-  	.pipe(cleanDir('./dist'))
+	gulp.src('docs', {read: false})
+  	.pipe(cleanDir('./docs'))
 );
 
 const defaultTask = () => gulp.parallel(
