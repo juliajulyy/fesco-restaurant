@@ -29,18 +29,4 @@
 		font-family: VollkornRegular;
 		font-size: 1em;
 	}
-	&__button-wrapper {
-		display: flex;
-		justify-content: center;
-		margin: 28px 0 0;
-	}
-	&__button {
-		border: 1px solid $main-color;
-		color: white;
-		padding: 9px;
-		&:hover {
-			background-color: $main-color;
-			color: rgb(28, 25, 42);
-		}
-	}
 }

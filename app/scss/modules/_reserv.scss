@@ -47,5 +47,9 @@
 		height: 50px;
 		padding: 0 15px 0 25px;
 		width: 235px;
+		&::placeholder {
+			font-family: RalewayMedium;
+			font-size: 1.15em;
+		}
 	}
 }

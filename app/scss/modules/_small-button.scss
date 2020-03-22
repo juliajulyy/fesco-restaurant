@@ -1,3 +1,10 @@
+.small-button-wrapper {
+	font-family: RalewayMedium;
+	font-size: 0.85em;
+	display: flex;
+	justify-content: center;
+	margin: 28px 0 0;
+}
 .small-button {
 	border: 1px solid $main-color;
 	color: white;
