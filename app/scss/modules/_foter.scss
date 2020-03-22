@@ -1,0 +1,63 @@
+.foter {
+	@extend %section-style;
+	background-color: $blue-background;
+	color: white;
+	&__wrapper {
+		padding: 45px 0 55px;
+		width: $section-width;
+	}
+	&__info {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__description {
+		@extend %contact-description;
+		margin: 0 0 25px;
+	}
+	&__details {
+		@extend %contact-info;
+		margin: 15px 0;
+	}
+	&__social-text {
+		line-height: 1.5;
+		width: 235px;
+	}
+	&__button-wrapper {
+		justify-content: flex-start;
+		height: 45px;
+	}
+	&__button {
+		padding: 15px 40px;
+	}
+	&__map {
+		font-family: VollkornRegular;
+	}
+	&__social {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 27px; 
+		width: 235px;
+	}
+	&__link {
+		border: 1px solid $main-color;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 45px;
+		width: 45px;
+	}
+	&__icon {
+		height: 20px;
+		width: 20px;
+	}
+	&__google {
+		height: 30px;
+		width: 30px;
+	}
+	&__copyright {
+		color: $main-color;
+		font-family: RalewayMedium;
+		font-size: 0.9em;
+		padding-top: 60px;
+	}
+}

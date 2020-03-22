@@ -14,13 +14,11 @@
 		color: $main-color;
 	}
 	&__description {
-		font-family: RalewayMedium;
-		font-size: 0.85em;
-		line-height: 1.4;
+		@extend %contact-description;
 		margin: 14px 0;
 	}
 	&__info {
-		font-size: 0.85em;
+		@extend %contact-info;
 		margin: 7px 0;
 	}
 	&__map {
@@ -28,5 +26,8 @@
 		color: $main-color;
 		font-family: VollkornRegular;
 		font-size: 1em;
+	}
+	&__button {
+		padding: 9px;
 	}
 }
