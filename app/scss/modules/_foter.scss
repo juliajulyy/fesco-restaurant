@@ -3,7 +3,7 @@
 	background-color: $blue-background;
 	color: white;
 	&__wrapper {
-		padding: 45px 0 55px;
+		padding: 48px 0 39px;
 		width: $section-width;
 	}
 	&__info {
@@ -12,7 +12,7 @@
 	}
 	&__description {
 		@extend %contact-description;
-		margin: 0 0 25px;
+		margin: 0 0 22px;
 	}
 	&__details {
 		@extend %contact-info;
@@ -58,6 +58,6 @@
 		color: $main-color;
 		font-family: RalewayMedium;
 		font-size: 0.9em;
-		padding-top: 60px;
+		padding-top: 48px;
 	}
 }
